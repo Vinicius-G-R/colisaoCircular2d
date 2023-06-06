@@ -31,9 +31,9 @@ while (tecla != "N")
         }
   
     Console.Write("\nVericar outro valor? [S] [N] ");
-    tecla = Console.ReadLine().Substring(0,1).ToUpper().Trim();
+    tecla = Console.ReadLine()!.Substring(0,1).ToUpper().Trim();
   }
-  
+
     double lerInformacao(string mensagem)
     {
        Console.Write(mensagem);
@@ -56,4 +56,3 @@ while (tecla != "N")
         }
 
   }
-    
